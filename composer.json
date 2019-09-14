@@ -1,0 +1,24 @@
+{
+  "name": "ivanlulyf/bunnyphp-wechat-pay",
+  "description": "WeChat Pay Service for BunnyPHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Lu",
+      "email": "me@ivanlu.cn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BunnyPHP\\WeChat\\Pay": "wechat-pay/"
+    }
+  },
+  "require": {
+    "ivanlulyf/bunnyphp": "@dev",
+    "ext-libxml": "*",
+    "ext-simplexml": "*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}
